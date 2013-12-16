@@ -1,0 +1,8 @@
+<%= form_tag(@user) %>
+  <div class="field :user_name">
+    <%= f.label "user name" %><br>
+    <%= f.text_field :user_name %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Create Account" %>
+  </div>
